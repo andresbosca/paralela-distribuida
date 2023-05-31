@@ -26,6 +26,7 @@ public class Servidor {
         janela.setSize(1920, 1080);
         janela.setVisible(true);
         JLabel label = new JLabel();
+        janela.add(label);
 
         int acumuladorPortas = 0;
         for (int y = 0; y < 1; y++) {
